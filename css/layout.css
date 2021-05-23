@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #00004d;
+}
+
+.container{
+    position: relative;
+}
+
+.row-wrap{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.row-inner{
+    display : flex;
+    margin:0 -50px;
+}
+
+.ng-mg-10{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.ng-mg-5{
+    margin-left: -5px;
+    margin-right: -5px;
+} 
+
+.ng-mg-25{
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.column{
+    padding: 0 50px;
+}
+
+.module-mg-left + .module-mg-left{
+    margin-left: 20px;
+}
+
+.ng-mg-10 .column{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0px;
+}
+
+.ng-mg-5 > .column{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0px;
+}
+
+.ng-mg-25 > .column{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+}
+
+.align-center{
+    justify-content: center;
+}
+
+.column{
+    width:100%;
+}
+
+.col-4n{
+    flex: 1 1 25%;
+}
+
+
+.col-4nr{
+    flex: 1 1 75%;
+}
+
+.col-3n{
+    flex: 1 1 33.3333%;
+}
+
+.col-3nr{
+    flex: 1 1 66.6667%;
+}
+
+.row + .row{
+    margin-top : 50px;
+}
+
+.module-mg-top + .module-mg-top{
+    margin-top : 25px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.nested-flex{
+    display: flex;
+}
+
+.col-2n{
+    flex: 1 1 50%;
+}
+
+.align-center{
+    align-self: center;
+}

@@ -1,0 +1,102 @@
+.app-header{
+    position:absolute;
+    top:50px;
+    width: 100%;
+}
+
+.app-section{
+    padding: 100px 0
+}
+
+h3{
+    font-size : 1.3em;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 1.7em;
+}
+
+h1{
+    font-size: 2.7em;
+    font-weight:500;
+}
+
+.btn {
+    background-color: #00004d;
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 36px;
+    color: cornsilk;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bg-violet{
+    background-color: rgb(208, 185, 255);
+}
+
+.Aloe{
+    background-image: url(../img/aloe.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    top:0;
+    left:50%;
+    background-size: cover;
+    width:50%;
+}
+
+.white_container{
+    background-image: url(../img/white_container1.jpg);
+    padding-top:107.4%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.cleanser{
+    background-image: url(../img/cleanser.jpg);
+    padding-top:107%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.moisturizer{
+    background-image: url(../img/moisturizer.jpg);
+    padding-top:107%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.footer{
+    background-image: url(../img/footer.jpg);
+    padding-top:75.7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    background-image: url(../img/hero.jpg);
+    padding-top:101.7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.female{
+    background-image: url(../img/female.jpg);
+    padding-top:118.3%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 100px);
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}

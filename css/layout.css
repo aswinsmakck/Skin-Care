@@ -69,23 +69,23 @@
 }
 
 .col-4n{
-    flex: 1 1 0;
+    flex: 1 1 auto;
     width:25%;
 }
 
 
 .col-4nr{
-    flex: 1 1 0;
+    flex: 1 1 auto;
     width: 75%;
 }
 
 .col-3n{
-    flex: 1 1 0;
+    flex: 1 1 auto;
     width: 33.3333%;
 }
 
 .col-3nr{
-    flex: 1 1 0;
+    flex: 1 1 auto;
     width: 66.6667%;
 }
 
@@ -107,10 +107,11 @@
 }
 
 .col-2n{
-    flex: 1 1 0;
+    flex: 1 1 auto;
     width: 50%;
 }
 
 .align-center{
     align-self: center;
 }
+

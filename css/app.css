@@ -22,6 +22,10 @@ h1{
     font-weight:500;
 }
 
+.thicker{
+    font-size: 3.5em;
+}
+
 .btn {
     background-color: #00004d;
     border: 0;
@@ -51,9 +55,11 @@ h1{
     background-image: url(../img/white_container1.jpg);
     padding-top:107.4%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-top-left-radius: 75px;
     border-bottom-right-radius: 75px;
+    background-position: center;
+    height: 100%;
 }
 
 .cleanser{
@@ -78,14 +84,14 @@ h1{
     background-image: url(../img/footer.jpg);
     padding-top:75.7%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .hero{
     background-image: url(../img/hero.jpg);
     padding-top:101.7%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     /*box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;*/
     box-shadow: rgb(0 0 0 / 56%) 0px 22px 70px 4px;
     border-radius: 30%;
@@ -95,11 +101,165 @@ h1{
     background-image: url(../img/female.jpg);
     padding-top:118.3%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: absolute;
     height: 100%;
     width: calc(100% - 100px);
     top: 50px;
     left: 50px;
     z-index: 2;
+}
+
+.waves{
+    position: relative;
+    background-image: url(../img/waves.jpg);
+    background-repeat: no-repeat;
+}
+
+.w60{
+    width:60%;
+}
+
+.line-height-lg{
+    line-height:55px;
+    letter-spacing: -2px;
+}
+
+.people{
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    z-index: 2;
+}
+
+.col-45{
+    width : 45%;
+}
+
+.col-55{
+    width: 55%;
+}
+
+@media (max-width: 768px){
+    .column.col-4n{
+        width: 50%;
+    }
+
+    .column.col-4n:nth-child(3),.column.col-4n:nth-child(4){
+        margin-top:25px;
+    }
+
+    .row-inner{
+        flex-wrap: wrap;
+        margin: 0 -25px;
+    }
+
+    .column{
+        padding: 0 25px;
+    }
+
+    h3{
+        font-size : revert;
+        font-weight: normal;
+    }
+    
+    h2{
+        font-size: revert;
+    }
+    
+    h1{
+        font-size: revert;
+        font-weight:revert;
+    }
+    
+    .thicker{
+        font-size: revert;
+    }
+
+    .app-section .row-wrap,.app-header .row-wrap{
+        padding: 0 20px;
+    }
+
+    .font-xx-small{
+        font-size: 1.5em;
+    }
+
+    .main-axis-col{
+        flex-direction: column;
+    }
+
+    .main-axis-col > .column.col-2n{
+        width:100%;
+    }
+    .main-axis-col >.column.col-2n:nth-child(2){
+        margin-top: 25px;
+    }
+
+    .row + .row{
+        margin-top : 25px;
+    }
+
+    .module-mg-top + .module-mg-top{
+        margin-top: 12px;
+    }
+
+    .app-section{
+        padding: 50px 0;
+    }
+
+    .app-header{
+        padding: 25px 0;
+    }
+
+    .ng-mg-5{
+        margin-left: -5px;
+        margin-right: -5px;
+    } 
+
+    .w60{
+        width:100%;
+    }
+
+    .line-height-lg{
+        line-height:revert;
+        letter-spacing: revert;
+    }
+
+    .people{
+        position:revert;
+        width:100%;
+    }
+
+    .waves{
+        background-size: 50%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .column.col-2n,.column.col-4n,.col-45,.col-55{
+        width:100%;
+    }
+
+    .row-inner > *{
+        margin-top: 25px;
+    }
+
+    .row-inner > .column:first-child{
+        margin-top: 0px;
+    }
+
+    .Aloe{
+        position: revert;
+    }
+
+    .mg-top-25{
+        margin-top: 25px !important;
+    }
+    .order-mx{
+        order:2;
+    }
+
+    .zero-margin{
+        margin-top:0;
+    }
 }

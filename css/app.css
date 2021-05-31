@@ -141,21 +141,21 @@ h1{
 }
 
 @media (max-width: 768px){
+    .container{
+        overflow:hidden;
+    }
+    
     .column.col-4n{
         width: 50%;
     }
 
-    .column.col-4n:nth-child(3),.column.col-4n:nth-child(4){
-        margin-top:25px;
-    }
-
     .row-inner{
         flex-wrap: wrap;
-        margin: 0 -25px;
+        margin: -10px -25px;
     }
 
     .column{
-        padding: 0 25px;
+        padding: 10px 25px;
     }
 
     h3{
@@ -191,9 +191,6 @@ h1{
     .main-axis-col > .column.col-2n{
         width:100%;
     }
-    .main-axis-col >.column.col-2n:nth-child(2){
-        margin-top: 25px;
-    }
 
     .row + .row{
         margin-top : 25px;
@@ -208,7 +205,7 @@ h1{
     }
 
     .app-header{
-        padding: 25px 0;
+        padding: 20px 0;
     }
 
     .ng-mg-5{
@@ -240,21 +237,10 @@ h1{
         width:100%;
     }
 
-    .row-inner > *{
-        margin-top: 25px;
-    }
-
-    .row-inner > .column:first-child{
-        margin-top: 0px;
-    }
-
     .Aloe{
         position: revert;
     }
 
-    .mg-top-25{
-        margin-top: 25px !important;
-    }
     .order-mx{
         order:2;
     }
